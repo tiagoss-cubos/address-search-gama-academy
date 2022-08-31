@@ -14,7 +14,7 @@ Nesse projeto o desafio era criar um formulário com campos para ser preenchidos
 
 ### Acesse o link abaixo para usá-lo
 
-- [BuscaEndereço](https://tiagoss-cubos.github.io/calculator-gama-academy/)
+- [BuscaEndereço](https://tiagoss-cubos.github.io/address-search-gama-academy/)
 
 ### Implementações futuras:
 

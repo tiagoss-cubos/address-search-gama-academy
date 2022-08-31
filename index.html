@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Pesquise o endereço</h1>
+    <form method="get" action="">
+      <div class="container-error"></div>
+      <div class="container-search">
+        <label>Cep:</label>
+        <input
+          name="cep"
+          type="text"
+          placeholder="Informe seu CEP"
+          id="cep"
+          value=""
+          size="10"
+          maxlength="9"
+          required
+        />
+      </div>
+      <div>
+        <label>Rua:</label>
+        <input disabled name="rua" type="text" id="logradouro" size="60" />
+      </div>
+      <div>
+        <label>Bairro:</label>
+        <input disabled name="bairro" type="text" id="bairro" size="40" />
+      </div>
+      <div>
+        <label>Cidade:</label>
+        <input disabled name="cidade" type="text" id="localidade" size="40" />
+      </div>
+      <div>
+        <label>Estado:</label>
+        <input disabled name="uf" type="text" id="uf" size="2" />
+      </div>
+      <div>
+        <label>IBGE:</label>
+        <input disabled name="ibge" type="text" id="ibge" size="8" />
+      </div>
+      <div class="container-btn">
+        <button data-btn>Limpar</button>
+      </div>
+    </form>
+  </body>
+</html>

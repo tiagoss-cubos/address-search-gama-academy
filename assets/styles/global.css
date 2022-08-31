@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/caminho\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: lightsteelblue;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0.5rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2.5rem;
+  gap: 1rem 0;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 300px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+}
+
+input:focus {
+  border: 2px solid #5d76c9;
+  box-shadow: 5px 5px 5px #4d69c5;
+}
+
+label {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form button {
+  all: unset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #397739;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 30px;
+}
+
+form button:hover {
+  background-color: #558055;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.erro {
+  color: #000;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
